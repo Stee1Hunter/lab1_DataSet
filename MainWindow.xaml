@@ -1,0 +1,21 @@
+﻿<Window x:Class="lab1_DataSet.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:lab1_DataSet"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="43.004"/>
+        </Grid.RowDefinitions>
+        <DataGrid x:Name="ClientComboBox" Margin="-10,-10,10,10" Grid.RowSpan="2"/>
+        <Button x:Name="_1" Content="Clients" Margin="67,0,651,335" Click="Button_Click"/>
+        <Button x:Name="_2" Content="Film" Margin="205,0,516,335" Click="Button_Click_1"/>
+        <Button x:Name="_3" Content="Ticket" Margin="338,0,358,335" Click="_3_Click"/>
+        <Button x:Name="_5" Content="FilmDistribution" Margin="504,0,166,335" Click="_5_Click"/>
+        <Button x:Name="_4" Content="FilmDistributors" Margin="338,124,300,195" Click="Button_Click_2"/>
+    </Grid>
+</Window>
